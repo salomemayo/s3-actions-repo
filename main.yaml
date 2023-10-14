@@ -1,3 +1,0 @@
-module "s3" {
-  source = "git@github.com:salomemayo/s3-backend-repo.git"
-}
