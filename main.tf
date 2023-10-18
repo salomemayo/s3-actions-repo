@@ -11,7 +11,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket  = "salome-automation-salome"
+    bucket  = "bootcamp32-dev-62"
     region  = "us-west-2"
     key     = "terraform.tfstate"
     encrypt = true
