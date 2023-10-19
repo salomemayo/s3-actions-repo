@@ -4,7 +4,7 @@ module "s3" {
 
 terraform {
   backend "s3" {
-    bucket  = "group5-tf-statefile"
+    bucket  = "bootcamp32-dev-62"
     key     = "action/terraform.tfstate"
     region  = "us-east-2"
     encrypt = true
