@@ -6,7 +6,7 @@ terraform {
   backend "s3" {
     bucket  = "bootcamp32-dev-62"
     key     = "action/terraform.tfstate"
-    region  = "us-east-2"
+    region  = "us-west-2"
     encrypt = true
   }
 }
