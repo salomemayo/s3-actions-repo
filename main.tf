@@ -3,17 +3,10 @@ module "s3" {
 }
 
 terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 5.0"
-    }
-  }
-
   backend "s3" {
-    bucket  = "bootcamp32-dev-62"
-    region  = "us-west-2"
-    key     = "terraform.tfstate"
+    bucket  = "group5-tf-statefile"
+    key     = "action/terraform.tfstate"
+    region  = "us-east-2"
     encrypt = true
   }
 }
